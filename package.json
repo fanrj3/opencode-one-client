@@ -1,6 +1,6 @@
 {
   "name": "opencode-one-client",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Multi-device OpenCode companion — switch between your OpenCode servers with /remote, /device, /open slash commands and the ocd CLI（OpenCode 多设备伴侣）",
   "type": "module",
   "main": "./src/index.ts",
@@ -10,7 +10,8 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "ocd": "./bin/ocd.js"
+    "ocd": "bin/ocd.js",
+    "opencode-one-client": "bin/ocd.js"
   },
   "files": [
     "src",
@@ -36,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fanjr3/opencode-one-client.git"
+    "url": "git+https://github.com/fanjr3/opencode-one-client.git"
   },
   "homepage": "https://github.com/fanjr3/opencode-one-client",
   "devDependencies": {
