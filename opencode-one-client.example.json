@@ -1,0 +1,18 @@
+{
+  "devices": [
+    {
+      "id": "my-server",
+      "name": "我的服务器",
+      "platform": "posix",
+      "url": "http://my-server.tailnet.ts.net:49374",
+      "password": "换成你的服务密码",
+      "defaultDir": "/home/me",
+      "cwd": "~/.local/state/opencode-one-client/launch/my-server",
+      "openHint": "在终端运行 ocd open my-server 打开它的界面",
+      "promptExample": "例如 /home/me/code/new-project",
+      "testDir": "/home/me/__oc_selftest__",
+      "hideExact": [],
+      "hidePrefix": ["/tmp"]
+    }
+  ]
+}
